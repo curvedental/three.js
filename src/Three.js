@@ -8,7 +8,7 @@ var THREE = { REVISION: '73' };
 
 if ( typeof define === 'function' && define.amd ) {
 
-		define( 'three', THREE );
+		define( THREE );
 
 } else if ( 'undefined' !== typeof exports && 'undefined' !== typeof module ) {
 
